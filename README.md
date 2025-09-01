@@ -1,6 +1,4 @@
-# VIBE_CODING_4_3_2
-
-## Campus Mojo - Student Mental Health App
+# Campus Mojo - Student Mental Health App
 
 This repository contains the improved Campus Mojo React Native/Expo app with comprehensive codebase improvements for better maintainability, scalability, and developer experience.
 
@@ -17,24 +15,24 @@ Campus Mojo is a student mental health app featuring:
 ## 🚀 Key Improvements Made
 
 ### 1. **TypeScript Integration**
-- ✅ Comprehensive type definitions in `types/index.ts`
+- ✅ Comprehensive type definitions in `frontend/campusmojo/types/index.ts`
 - ✅ Converted key screens to TypeScript
 - ✅ Added proper type safety for all API calls
 - ✅ Defined interfaces for all data structures
 
 ### 2. **Centralized Utilities**
-- ✅ **Supabase Utils** (`utils/supabase.ts`): Centralized database operations
-- ✅ **Validation Utils** (`utils/validation.ts`): Centralized form validation
-- ✅ **Constants** (`utils/constants.ts`): Centralized app configuration
+- ✅ **Supabase Utils** (`frontend/campusmojo/utils/supabase.ts`): Centralized database operations
+- ✅ **Validation Utils** (`frontend/campusmojo/utils/validation.ts`): Centralized form validation
+- ✅ **Constants** (`frontend/campusmojo/utils/constants.ts`): Centralized app configuration
 
 ### 3. **Custom Hooks**
-- ✅ **useAuth** (`hooks/useAuth.ts`): Complete authentication state management
-- ✅ **useApi** (`hooks/useApi.ts`): Generic API hook with loading states
+- ✅ **useAuth** (`frontend/campusmojo/hooks/useAuth.ts`): Complete authentication state management
+- ✅ **useApi** (`frontend/campusmojo/hooks/useApi.ts`): Generic API hook with loading states
 
 ### 4. **Reusable Components**
-- ✅ **FormField** (`components/ui/FormField.tsx`): Consistent form inputs
-- ✅ **Button** (`components/ui/Button.tsx`): Reusable button with variants
-- ✅ **Card** (`components/ui/Card.tsx`): Consistent card layouts
+- ✅ **FormField** (`frontend/campusmojo/components/ui/FormField.tsx`): Consistent form inputs
+- ✅ **Button** (`frontend/campusmojo/components/ui/Button.tsx`): Reusable button with variants
+- ✅ **Card** (`frontend/campusmojo/components/ui/Card.tsx`): Consistent card layouts
 
 ### 5. **Improved Screens**
 - ✅ **AuthScreen**: TypeScript with validation and error handling
@@ -84,7 +82,7 @@ campusmojo/
 ```bash
 # Clone the repository
 git clone https://github.com/Kim-dr/VIBE_CODING_4_3_2.git
-cd VIBE_CODING_4_3_2
+cd VIBE_CODING_4_3_2/campusmojo
 
 # Install dependencies
 cd frontend/campusmojo
@@ -151,7 +149,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 For support and questions:
 - Create an issue in this repository
-- Check the `IMPROVEMENTS.md` file for detailed documentation
+- Check the `frontend/campusmojo/IMPROVEMENTS.md` file for detailed documentation
 - Review the TypeScript types for API structure
 
 ---
